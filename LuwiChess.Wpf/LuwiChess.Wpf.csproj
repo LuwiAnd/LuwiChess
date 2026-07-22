@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\black_bishop.svg" />
+    <None Remove="Assets\black_king.svg" />
+    <None Remove="Assets\black_knight.svg" />
+    <None Remove="Assets\black_pawn.svg" />
+    <None Remove="Assets\black_queen.svg" />
+    <None Remove="Assets\black_rook.svg" />
+    <None Remove="Assets\board.png" />
+    <None Remove="Assets\cursorB.cur" />
+    <None Remove="Assets\cursorW.cur" />
+    <None Remove="Assets\icon.ico" />
+    <None Remove="Assets\white_bishop.svg" />
+    <None Remove="Assets\white_king.svg" />
+    <None Remove="Assets\white_knight.svg" />
+    <None Remove="Assets\white_pawn.svg" />
+    <None Remove="Assets\white_queen.svg" />
+    <None Remove="Assets\white_rook.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LuwiChess.Core\LuwiChess.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\black_bishop.svg" />
+    <Resource Include="Assets\black_king.svg" />
+    <Resource Include="Assets\black_knight.svg" />
+    <Resource Include="Assets\black_pawn.svg" />
+    <Resource Include="Assets\black_queen.svg" />
+    <Resource Include="Assets\black_rook.svg" />
+    <Resource Include="Assets\board.png" />
+    <Resource Include="Assets\cursorB.cur" />
+    <Resource Include="Assets\cursorW.cur" />
+    <Resource Include="Assets\icon.ico" />
+    <Resource Include="Assets\white_bishop.svg" />
+    <Resource Include="Assets\white_king.svg" />
+    <Resource Include="Assets\white_knight.svg" />
+    <Resource Include="Assets\white_pawn.svg" />
+    <Resource Include="Assets\white_queen.svg" />
+    <Resource Include="Assets\white_rook.svg" />
+  </ItemGroup>
+
+</Project>

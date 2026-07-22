@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LuwiChess.Core/LuwiChess.Core.csproj" />
+  <Project Path="LuwiChess.Wpf/LuwiChess.Wpf.csproj" />
+</Solution>
