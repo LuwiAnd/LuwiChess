@@ -9,6 +9,7 @@ namespace LuwiChess.Core.Moves
     (
         int From,
         int To,
+        PieceType MovingPiece,
         MoveType Type = MoveType.Normal,
         PieceType PromotionPiece = PieceType.Empty,
         PieceType CapturedPiece = PieceType.Empty

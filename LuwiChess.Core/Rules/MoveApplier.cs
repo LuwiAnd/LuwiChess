@@ -4,7 +4,8 @@ using System.Text;
 
 namespace LuwiChess.Core.Rules
 {
-    internal class MoveApplier
+    public class MoveApplier
     {
+
     }
 }
